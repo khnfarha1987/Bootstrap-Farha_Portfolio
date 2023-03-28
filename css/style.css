@@ -1,0 +1,288 @@
+body {
+    padding-top: 54px;
+
+}
+
+header .welcome {
+    margin-top: 3em;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.card {
+    height: 100%;
+}
+
+/* navbar-section */
+.navbar {
+    position: absolute;
+    background-color: #001c54 !important;
+}
+
+.navbar-brand {
+    color: #b9c4dc !important;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.nav-item a {
+    color: #14b2b2 !important;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* end of navbar-section */
+
+/* hero-section */
+.jumbotron {
+    background-color: #23a5f6 !important;
+}
+
+.display-4 {
+    color: #2d4aa2;
+    font-family: fantasy;
+}
+
+.main {
+    color: rgb(255, 232, 190);
+    font-family: cursive;
+}
+
+.lead {
+    color: aliceblue;
+    font-family: serif;
+}
+
+.jumbotron a {
+    margin-left: 30%;
+    margin-top: 15px;
+}
+
+#portfolio-image {
+    margin-left: 70%;
+    margin-top: -200px;
+}
+
+/* end of hero-section */
+
+/* skill-section */
+#main-container {
+    margin-bottom: -15px;
+    background-color: #bdd7fb;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    margin-top: -32px;
+}
+
+#skill a {
+    color: #191970;
+}
+
+.skill :hover {
+    opacity: 0.2;
+
+}
+
+.skill {
+    border-radius: 50%;
+}
+
+.heading {
+    color: #191970;
+    font-family: monospace;
+}
+
+.skill-detail {
+    color: rgb(48, 14, 14);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+}
+
+/* skill-section */
+
+/* work-section */
+/* project-1 */
+#project-images1:hover {
+    opacity: 0.3;
+}
+
+#project-images1:hover .middle {
+    opacity: 5;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 5, 5);
+    font-size: 40px;
+    background-color: blue;
+}
+
+#project-images:hover .middle {
+    opacity: 5;
+}
+
+/* project-2 */
+#project-images2:hover {
+    opacity: 0.3;
+}
+
+#project-images2:hover .middle {
+    opacity: 5;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 5, 5);
+    font-size: 40px;
+    background-color: blue;
+}
+
+/* project-3 */
+#project-images3:hover {
+    opacity: 0.3;
+}
+
+#project-images3:hover .middle {
+    opacity: 5;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 5, 5);
+    font-size: 40px;
+    background-color: blue;
+}
+
+/* project-4 */
+#project-images4:hover {
+    opacity: 0.3;
+}
+
+#project-images4:hover .middle {
+    opacity: 5;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 5, 5);
+    font-size: 40px;
+    background-color: blue;
+}
+
+.btn:hover {
+    background-color: #8abbff;
+}
+
+#work {
+    background-color: #bdd7fb;
+    margin-top: 15px;
+}
+
+.my-4 {
+    color: #2d4aa2;
+
+    font-family: fantasy;
+    font-weight: 200;
+}
+
+.project {
+    color: #191970;
+    font-family: cursive;
+}
+
+.detail {
+    font-family: serif;
+    font-size: 20px;
+}
+
+/* end of work-section */
+
+/* about-section */
+#about-container {
+    background-color: #23a5f6 !important;
+}
+
+.info {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(226, 219, 206);
+}
+
+.quotes {
+    font-family: fantasy;
+    color: aliceblue;
+}
+
+.about-section a {
+    color: #191970;
+}
+
+/* end of about-section */
+
+/* contact-section */
+.contact-info {
+    margin-left: 40px;
+    margin-top: -10px;
+    color: #003399;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.contact-section a {
+    color: #002626;
+    padding: 42px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+/* end of contact-section */
+
+/* footer-section */
+#footer {
+    background-color: #003399 !important;
+}
+
+#links {
+    margin-top: 30px;
+
+}
+
+#bottom-section {
+    color: #ffffff !important;
+}
+
+/* footer-section */

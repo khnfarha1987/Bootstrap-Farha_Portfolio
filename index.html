@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Portfolio</title>
+</head>
+
+
+<title>My Portfolio Template</title>
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- Custom styles for this template -->
+<link rel="stylesheet" href="../css/style.css">
+
+<!-- Custom icons for this template -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+    <section>
+        <!-- navbar-section -->
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#welcome">Welcome
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-container">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-container">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar-section -->
+
+        <!-- Hero Section -->
+        <!-- jumbotron -->
+
+        <header class="jumbotron jumbotron-fluid bg-secondary">
+            <div class="container welcome">
+                <div class="row mx-auto text-white">
+                    <h1 class="display-4" id="welcome">Welcome to My Portfolio!</h1>
+                    <h4 class="main">Hello, I'am <i>Farha Khan</i> student of <i>Birmingham University</i> bootcamp.
+                    </h4>
+                    <p class="lead">I used HTML, CSS and Bootstrap to build this portfolio. This is my first
+                        portfolio
+                        of Bootstrap4.</p>
+                    <div class="col-lg-4 order-lg-2" id="portfolio-image">
+                        <div class="p-4">
+                            <img class="img-fluid rounded-circle" src="../images/farha.jpg" alt="">
+                        </div>
+                        <a href="#" class="btn btn-primary btn-lg">Click Here 🖌</a>
+                    </div>
+                </div>
+        </header>
+
+    </section>
+    <!-- end Hero section -->
+
+
+    <div class="container portfolio" id="main-container">
+        <!-- Skill Section -->
+        <div id="skill">
+            <h1 class="my-4">My Skills:</h1>
+
+            <div class="row">
+                <!--skill-1-->
+                <div class="col-lg-4">
+                    <div class="skill" id="html">
+                        <img class="img-fluid rounded-circle" src="../images/html_image.jpg" alt="">
+                    </div>
+                    <h2 class="heading">HTML</h2>
+                    <p class="skill-detail">In HTML I learned a lot of things such as <b>Headings, Paragraphs, Links,
+                            Images, Line break, Bold &
+                            Strong, Italic and emphasized, Underlined, Ordered lists and Unordered lists, Marked or
+                            highlighted text, Tables.</b>Improving
+                        client-side data storage and offline capabilities.
+                    </p>
+                    <a class="btn btn-primary" href="#html">view details >></a>
+                </div>
+                <!--skill-2-->
+                <div class="col-lg-4">
+                    <div class="skill" id="css">
+                        <img class="img-fluid rounded-circle" src="../images/css_image.jpg" alt="">
+                    </div>
+
+                    <h2 class="heading">CSS</h2>
+                    <p class="skill-detail">I learned CSS fundamentals like the <b>box model, cascade and specificity,
+                            flexbox, grid and
+                            z-index.</b>
+                        And, along with these fundamentals, I learned about <b> functions, color types, gradients,
+                            logical
+                            properties and inheritance</b> to make you a well-rounded front-end developer, ready to take
+                        on
+                        any user
+                        interface.</p>
+                    <a class="btn btn-primary" href="#css">view details >></a>
+                </div>
+                <!--skill-3-->
+                <div class="col-lg-4">
+                    <div class="skill" id="bootstrap">
+                        <img class="img-fluid rounded-circle" src="../images/bootstrap_image.jpg" alt="">
+                    </div>
+
+                    <h2 class="heading">Bootstrap</h2>
+                    <p class="skill-detail">Bootstrap's responsive CSS adjusts to phones, tablets, and desktops. I
+                        learned
+                        some
+                        impotant components like <b>Jumbotron, Modal, Card, Form, Row, Navbar, Button, Grid,
+                            Typography.</b> It is the most popular HTML, CSS, and JavaScript framework for developing
+                        responsive, mobile-first websites.</p>
+                    <a class="btn btn-primary" href="#bootstrap">view details >></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end of skill Section -->
+
+    <!-- Work Section -->
+    <section class="container" id="work">
+        <br>
+        <br>
+
+        <!-- Page Heading -->
+        <h1 class="my-4">My Work:</h1>
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-7" id="project-images1">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../images/html_project.jpg" alt="">
+                <div class="middle">
+                    <div class="text">HTML Project-1</div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h3 class="project"><u>HTML Project-1</u></h3>
+                <p class="detail">HTML (HyperText Markup Language) is the code that is used to structure a web page
+                    and
+                    its content.
+                    For example, content could be structured within a set of paragraphs, a list of bulleted points,
+                    or
+                    using images and data tables.</p>
+                <a class="btn btn-primary" href="#project-images1">Learn more HTML</a>
+            </div>
+        </div>
+        <!-- /.row -->
+        <br>
+        <hr>
+        <br>
+
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-7" id="project-images2">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../images/css_project.jpg" alt="">
+                <div class="middle">
+                    <div class="text">CSS Project-2</div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h3 class="project"><u>CSS Project-2</u></h3>
+                <p class="detail">CSS is the language for describing the presentation of Web pages, including
+                    colors,
+                    layout, and
+                    fonts. It allows one to adapt the presentation to different types of devices, such as large
+                    screens,
+                    small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup
+                    language.</p>
+                <a class="btn btn-primary" href="#project-images2">Learn more CSS</a>
+            </div>
+        </div>
+        <!-- /.row -->
+        <br>
+        <hr>
+        <br>
+
+        <!-- Project Three -->
+        <div class="row">
+            <div class="col-md-7" id="project-images3">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../images/bootstrap_project.jpg" alt="">
+                <div class="middle">
+                    <div class="text">Bootstrap-3</div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h3 class="project"><u>Bootstrap Project-3</u></h3>
+                <p class="detail">The bootstrap method is a statistical technique for estimating quantities about a
+                    population by
+                    averaging estimates from multiple small data samples. Importantly, samples are constructed by
+                    drawing observations from a large data sample one at a time and returning them to the data
+                    sample
+                    after they have been chosen.</p>
+                <a class="btn btn-primary" href="#project-images3">Learn more Bootstrap</a>
+            </div>
+        </div>
+        <!-- /.row -->
+        <br>
+        <hr>
+        <br>
+
+        <!-- Project Four -->
+        <div class="row">
+            <div class="col-md-7" id="project-images4">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../images/hotel_project.jpg" alt="">
+                <div class="middle">
+                    <div class="text">Hospitality-4</div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h3 class="project"><u>Hospitality Project-4</u></h3>
+                <p class="detail">Hospitality is the relationship between a guest and a host, wherein the host
+                    receives
+                    the guest with
+                    some amount of goodwill, including the reception and entertainment of guests, visitors, or
+                    strangers.Hospitality include inviting someone in your home for a drink or a meal, making sure
+                    your
+                    visitors are comfortable, giving gifts, expressing regard, and offering help or guidance.</p>
+                <a class="btn btn-primary" href="#project-images4">Learn more Hospitality</a>
+            </div>
+        </div>
+        <!-- /.row -->
+        <br>
+        <hr>
+        <br>
+        <!-- end of Work Section -->
+
+        <!-- About Section -->
+        <section>
+
+            <div class="container bg-secondary" id="about-container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 order-lg-2">
+                        <div class="p-5">
+                            <img class="img-fluid rounded-circle" src="../images/farha.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 order-lg-1 text-white">
+                        <div class="p-5">
+                            <h2 class="display-4">About me!</h2>
+                            <h5 class="info">I know how it feels to use your creative juices to perfect a piece of
+                                code, only to
+                                have someone else ask for a sudden change in a different direction. So many web
+                                developers can relate to that experience.</h5>
+                            <p class="quotes">“Technology like art is a soaring exercise of the human imagination.
+                                Technology is
+                                best when it brings people together.”</p>
+                            <a class="btn btn-primary" href="#">
+                                <i class="fas fa-download"></i>
+                                Download my Resume!</a>
+                        </div>
+                        <!--contact-section-->
+                        <div class="contact-section" id="contact-container">
+                            <h4 class="contact-info">Contact Me !</h4>
+                            <a href="">Linkedin</a>
+                            <a href="">Twitter</a>
+                            <a href="">GitHub</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- /.container -->
+        <br>
+        <br>
+
+        <!-- Footer -->
+        <footer class="footer bg-light" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center mx-auto" id="links">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item mr-3" id="linkedin">
+                                <a href="#">
+                                    <i class="fab fa-linkedin fa-3x fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-3" id="twitter">
+                                <a href="#">
+                                    <i class="fab fa-twitter-square fa-3x fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item" id="github">
+                                <a href="#">
+                                    <i class="fab fa-github fa-3x fa-fw"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <br>
+                        <p class="text-muted small mb-4 mb-lg-0" id="bottom-section">&copy; Farha Khan 2023!</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </footer>
+        <!-- end of Footer -->
+</body>
+
+</html>
