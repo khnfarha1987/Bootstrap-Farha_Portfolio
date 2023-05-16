@@ -77,7 +77,7 @@ Responsive design ensures that web applications render well on a variety of devi
  * A footer section
   ![alt](./images/img-9.png) 
 
-# Video Links of this Project:
+# Video Link of this Project:
   ![alt](./images/mov.gif)
 
 # Application GitHub URL:
