@@ -59,6 +59,25 @@ Responsive design ensures that web applications render well on a variety of devi
  * A navigation bar
   ![alt](./images/img-1.png)
 
+ * A hero section
+  ![alt](./images/img-2.png)
+  
+ * A skill section
+  ![alt](./images/img-3.png)
+
+ * A work section
+  ![alt](./images/img-4.png)
+  ![alt](./images/img-5.png)
+  ![alt](./images/img-6.png)
+  ![alt](./images/img-7.png)
+
+ * An about/contact section
+  ![alt](./images/img-8.png)
+
+ * A footer section
+  ![alt](./images/img-9.png) 
+
+
 # Application GitHub URL:
 https://github.com/khnfarha1987/Bootstrap-Farha_Portfolio
 
